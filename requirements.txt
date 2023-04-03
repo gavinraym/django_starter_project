@@ -1,0 +1,15 @@
+asgiref
+django
+djangorestframework
+pip
+pytz
+setuptools
+sqlparse
+tk
+typing_extensions
+tzdata
+vc
+wheel
+whitenoise
+gunicorn
+psycopg2
