@@ -1,9 +1,33 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}Home{% endblock %}
 
 {% block content %}
-    <h1>Welcome to my website</h1>
-    <p>Here is some content for the home page.</p>
+    <div class="blog-post">
+        <div class="prompt">
+          <h3>4/21/2023</h3>
+          <h2>A useful ChatGPT Prompt:</h2>
+          <p>How do I change my webpage's body background color inside my-styles.css?</p>
+        </div>
+        <div class="learning-outcome">
+          <h2>Learning Outcome:</h2>
+          <p>!!add what you learned from the prompt here.!!</p>
+        </div>
+      </div>
+
+      <div class="blog-post">
+        <div class="prompt">
+          <h3>4/21/2023</h3>
+          <h2>A useful ChatGPT Prompt:</h2>
+          <p>How do I add a picture to my django project, and display it in an html element?</p>
+        </div>
+        <div class="learning-outcome">
+          <h2>Learning Outcome:</h2>
+          <p>!!add what you learned from the prompt here.!!</p>
+          <img src="{% static 'images/learning-outcome-1.png' %}" alt="learning-outcome-1" class="img-fluid">
+        </div>
+      </div>
+      
     
 {% endblock %}

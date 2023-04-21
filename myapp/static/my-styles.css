@@ -1,0 +1,65 @@
+/*IF YOU DON'T KNOW WHAT CSS STYLES ARE,
+TRY ASKING CHATGPT :
+  1.What can css styles add to a website?
+  2.How are css styles added to a style block? 
+  3.What are some examples of nice looking styles?
+     or
+  4.Create a my-bob class with a good color scheme, 
+        a 1px border radius, aligned to the center, and with a
+        10px padding, 10px margin, and make it bob up and down a little.
+    -->
+
+ADD YOUR CSS STYLES BELOW THIS LINE */
+
+
+
+
+
+
+
+
+
+
+
+
+/* DO NOT EDIT BELOW THIS LINE */
+
+/* my-bob class is an example used by about.html */
+.my-bob {
+    background-color: #6495ED;
+    color: white;
+    border-radius: 1px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    animation: bob 0.5s infinite alternate ease-in-out;
+    cursor: pointer;
+  }
+
+  @keyframes bob {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+
+  /* blog-post, prompt, and learning outcome are examples used by home.html */
+  .blog-post {
+    display: flex;
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+    margin: 20px;
+  }
+
+  .prompt {
+    width: 30%;
+  }
+
+  .learning-outcome {
+    width: 70%;
+    padding-left: 20px;
+  }
