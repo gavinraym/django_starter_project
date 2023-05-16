@@ -1,0 +1,4 @@
+run env in cmd
+cd to django_starter_project
+"py manage.py runserver" to open server
+"py manage.py makemigrations" to make migration
